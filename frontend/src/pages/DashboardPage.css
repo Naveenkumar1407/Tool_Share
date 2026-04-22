@@ -1,0 +1,149 @@
+.dashboard {
+  max-width: 900px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+}
+
+.dashboard h1 {
+  margin: 0 0 0.3rem;
+  color: #2c3e50;
+}
+
+.welcome-text {
+  color: #7f8c8d;
+  margin: 0 0 1.5rem;
+}
+
+.stats-row {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.stat-card {
+  flex: 1;
+  background: white;
+  border-radius: 8px;
+  padding: 1.2rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.stat-num {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #3498db;
+}
+
+.stat-label {
+  color: #7f8c8d;
+  font-size: 0.85rem;
+  margin-top: 0.2rem;
+}
+
+.tab-bar {
+  display: flex;
+  gap: 0;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.tab {
+  padding: 0.7rem 1.2rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: #7f8c8d;
+  border-bottom: 3px solid transparent;
+  margin-bottom: -2px;
+}
+
+.tab.active {
+  color: #3498db;
+  border-bottom-color: #3498db;
+  font-weight: 600;
+}
+
+.tab-content {
+  background: white;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+.empty-msg {
+  text-align: center;
+  color: #7f8c8d;
+  padding: 2rem;
+}
+
+.empty-msg a {
+  color: #3498db;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 6px;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.item-info {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+}
+
+.item-info strong {
+  color: #2c3e50;
+}
+
+.item-cat {
+  background: #ecf0f1;
+  padding: 0.15rem 0.6rem;
+  border-radius: 10px;
+  font-size: 0.8rem;
+}
+
+.avail-yes { color: #27ae60; font-weight: 600; font-size: 0.85rem; }
+.avail-no { color: #e74c3c; font-weight: 600; font-size: 0.85rem; }
+
+.req-badge {
+  color: white;
+  padding: 0.15rem 0.6rem;
+  border-radius: 10px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.item-actions {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.btn-sm {
+  padding: 0.35rem 0.8rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-info { background: #3498db; }
+.btn-success { background: #27ae60; }
+.btn-danger { background: #e74c3c; }
+.btn-sm:hover { opacity: 0.85; }
